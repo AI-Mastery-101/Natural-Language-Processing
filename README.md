@@ -129,14 +129,9 @@ After successful completion of this course, the student will be able to:
 ## **Required Literature**
 
 **Mandatory Reading:**
-Bhargav Srinivasa-Desikan (2018). *Natural Language Processing and Computational Linguistics.*
-Birmingham, United Kingdom: PACKT Publishing Limited.
-
-**Chapters:**
-
-* Chapter 1 & 2
-* Chapter 4
-* Chapters 10, 11 & 12
+Practical Natural Language Processing
+A Comprehensive Guide to Building Real-World NLP Systems
+O'REILLY
 
 ---
 
@@ -150,7 +145,7 @@ Birmingham, United Kingdom: PACKT Publishing Limited.
 
 ## **Assessment**
 
-* **Written Exam (100%)**
+* **Written Exam (50%) + Practical Projects (50%)**
 
 Students will be assessed on their ability to apply NLP and computational linguistics techniques to real-world text data.
 The written exam will test both theoretical understanding and practical implementation.
