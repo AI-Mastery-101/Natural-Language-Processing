@@ -1,5 +1,5 @@
 
-# 📘 **How to Find Kaggle Dataset File Paths in Google Colab**
+# **How to Find Kaggle Dataset File Paths in Google Colab**
 
 This guide explains how to correctly locate and load files from a Kaggle dataset when working inside **Google Colab**.
 It uses the dataset:
@@ -12,7 +12,7 @@ as an example, but the steps apply to **any Kaggle dataset**.
 
 ---
 
-## 📍 1. How Kaggle Datasets Are Stored in Google Colab
+## 1. How Kaggle Datasets Are Stored in Google Colab
 
 When you load a Kaggle dataset in Colab (using `kagglehub`, the Kaggle API, or the “Add Data” feature), the dataset is automatically downloaded into:
 
@@ -30,7 +30,7 @@ Example:
 
 ---
 
-## 📍 2. Listing the Files in the Dataset
+## 2. Listing the Files in the Dataset
 
 To see which files the dataset contains, run the following inside a Colab cell:
 
@@ -51,7 +51,7 @@ This tells you the **exact filenames** available in the dataset.
 
 ---
 
-## 📍 3. Constructing the Full File Path
+## 3. Constructing the Full File Path
 
 To load a file, you combine:
 
@@ -72,7 +72,7 @@ Example:
 
 ---
 
-## 📍 4. Loading the File With Pandas
+## 4. Loading the File With Pandas
 
 Once you know the path, you can load the file with Pandas:
 
@@ -88,7 +88,7 @@ df.head()
 
 ---
 
-## 📍 5. Summary Table
+## 5. Summary Table
 
 | Step | What You Do             | Code                             |
 | ---- | ----------------------- | -------------------------------- |
@@ -99,7 +99,7 @@ df.head()
 
 ---
 
-## 📍 6. Example: Loading Only the `Comment` Column
+## 6. Example: Loading Only the `Comment` Column
 
 ```python
 comments = df['Comment']
@@ -114,7 +114,7 @@ comments_df = df[['Comment']]
 
 ---
 
-## 📍 7. Why This Documentation Matters
+## 7. Why This Documentation Matters
 
 Google Colab does not show dataset file structures visually (unlike Kaggle Notebooks).
 Therefore:
