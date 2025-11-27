@@ -118,13 +118,18 @@ It is used because it focuses on direction rather than magnitude, making it robu
 In high-dimensional sparse spaces, it provides a stable, length-invariant similarity score.
 
 Name and explain two types of text summarization.
+
 Two types of text summarization
+
 · Extractive summarization:
+
 selects and stitches together the most important sentences or phrases from the original text without rewriting them.
 It’s fast, faithful to the source wording, and works well for formal documents but can be choppy.
 
 
-· Abstractive summarization: generates new sentences that paraphrase the key ideas, like how a human would summarize.
+· Abstractive summarization:
+
+generates new sentences that paraphrase the key ideas, like how a human would summarize.
 It can be more concise and coherent across sections, but it’s harder to control and may introduce inaccuracies if not well-guided or grounded
 
 
