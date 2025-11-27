@@ -10,8 +10,11 @@ Why should you do text analysis?
 You do text analysis mainly for four reasons:
 
 · scale, so you can automatically process thousands to millions of texts
+
 · speed, because algorithms deliver insights in near real time instead of slow manual reviews
+
 · consistency, since the same criteria are applied uniformly without human variability
+
 · actionability, because you turn qualitative text into measurable signals and features that plug directly into dashboards, models or automations
 
 Name two situations where text analysis is useful.
@@ -21,11 +24,17 @@ Name two situations where text analysis is useful.
 · Reviews & social: A café chain scans Google reviews and tweets. The system flags many mentions of “slow drive-thru,” so they add a second barista at peak hours and ratings go up.
 
 Explain why companies use text analysis in sentiment analysis.
+
 · Measure customer experience: quickly see how happy or unhappy customers are and why. 
+
 · Prioritize fixes: cluster feedback by themes (price, delivery, support) to guide action. 
+
 · Protect brand & marketing: track shifts in brand perception and campaign impact early. 
+
 · Reduce risk & churn: flag spikes in negative sentiment to intervene before customers leave. 
+
 · Turn text into KPIs: convert reviews/posts into metrics for dashboards and automation. 
+
 · Scale & speed: process millions of comments in near real time instead of manual reading.
 
 
