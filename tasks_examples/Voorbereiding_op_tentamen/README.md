@@ -6,6 +6,7 @@ so it can be queried, summarized or used in downstream decisions.
 
 
 Why should you do text analysis?
+
 You do text analysis mainly for four reasons:
 · scale, so you can automatically process thousands to millions of texts
 · speed, because algorithms deliver insights in near real time instead of slow manual reviews
@@ -54,22 +55,26 @@ quality checks, or feature extraction.
 ____________________________________________________________________________________
 
 **Why do we need vector representations of text in NLP?**
+
 We need vector representations because models work with numbers, not raw text.
 By mapping words or documents to vectors, we can measure similarity, feed texts to machine learning algorithms,
 and capture meaningful linguistic patterns in a form that supports computation, comparison, and learning.
 
 
 **What is Bag of Words (BoW)?**
+
 Bag of Words (BoW) is a simple representation that turns a document into a vector of token counts.
 It ignores word order and grammar and only records how often each vocabulary term appears in the document.
 
 **What is TF-IDF?**
+
 TF-IDF (Term Frequency–Inverse Document Frequency) weights each term by
 how frequent it is in the document (TF) and how rare it is across the corpus (IDF).
 The result down-weights very common terms and up-weights informative, distinctive terms.
 
 
 **What is the difference between BoW and TF-IDF?**
+
 Both BoW and TF-IDF ignore word order, but they differ in weighting.
 BoW uses raw counts (or binary presence), treating all terms equally, which can overemphasize common words.
 TF-IDF rescales counts using corpus-level rarity, reducing the impact of ubiquitous terms and highlighting terms that better characterize a document.
@@ -79,27 +84,32 @@ TF-IDF rescales counts using corpus-level rarity, reducing the impact of ubiquit
 ___________________________________________________________
 
 What is text clustering?
+
 Text clustering is an unsupervised technique that groups documents based on similarity of their content.
 The algorithm doesn’t know labels in advance; it discovers structure by placing texts with similar vocabulary or topics into the same cluster.
 
 
 Give one real-life application of text clustering.
+
 Grouping incoming customer feedback into themes (e.g., delivery issues, pricing, app bugs)
 so teams can spot emerging problems without manually reading every message.
 
 
 What is text classification?
+
 Text classification is a supervised task where we train a model on labeled examples to assign predefined categories to new texts.
 Given input text, the model predicts its label, such as topic, intent or sentiment
 
 
 Give one real-life application of text classification.
+
 Automatically routing support emails by topic to the right department (billing, technical support, cancellations) to speed up response and resolution.
 
 
 ________________________________________
 
 What is cosine similarity and why is it used?
+
 Cosine similarity measures how similar two text vectors are by computing the cosine of the angle between them.
 <img width="219" height="60" alt="image" src="https://github.com/user-attachments/assets/a251d838-a1ff-4225-95a4-8dc342b75e39" />
 
@@ -122,12 +132,14 @@ It can be more concise and coherent across sections, but it’s harder to contro
 ___________________________________
 
 What is a word embedding?
+
 Word embedding is a dense vector representation of a word learned from data so that words with similar meanings have nearby vectors.
 Unlike one-hot or Bag-of-Words, embeddings capture semantic and syntactic relationships (e.g., analogy structure) and enable models to generalize across similar words.
 Common approaches include Word2Vec, GloVe and fastText (static embeddings), and modern contextual embeddings from transformers.
 
 
 What is Doc2Vec?
+
 Doc2Vec extends Word2Vec to learn a fixed-length vector for an entire document (sentence, paragraph or article).
 It trains a document ID vector alongside word vectors to predict words in context, producing a representation that captures the document’s topics and style.
 It has two main variants: PV-DM (Distributed Memory), which uses the document vector plus surrounding words to predict a target word and PV-DBOW (Distributed Bag of Words),
